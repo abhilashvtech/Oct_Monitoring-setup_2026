@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout Repo') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/abhilashvtech/Oct-Monitoring-setup_2026.git'
+                    url: 'https://github.com/abhilashvtech/Oct_Monitoring-setup_2026.git'
             }
         }
 
